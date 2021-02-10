@@ -44,8 +44,3 @@ npm run build
 ```
 
 Builds the app for production into the `dist` folder (cleaning it up beforehand). The build is minified and the filenames include the hashes.
-
-
-## Project status
-
-The project has been completed and will no longer be developed in the future.
