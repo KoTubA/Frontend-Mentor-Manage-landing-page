@@ -85,7 +85,7 @@
 
 @media (min-width: 500px) {
 
-    .home-section, .summary-section {
+    .header-section, .summary-section, .home-section {
         padding-left: 50px;
         padding-right: 50px;
     }
@@ -115,7 +115,7 @@
         font-size: 0.9rem;
     }
 
-    .home::before {
+    .app-wrapper::before {
         background-position: top -4rem right -6rem;
         background-size: 32rem 32rem;
     }
@@ -129,7 +129,7 @@
 
 @media (min-width: 600px) {
 
-    .home-section, .summary-section {
+    .header-section, .summary-section, .home-section {
         padding-left: 70px;
         padding-right: 70px;
     }
@@ -152,7 +152,7 @@
 
 @media (min-width: 768px) {
 
-    .home-section, .summary-section {
+    .header-section, .summary-section, .home-section {
         padding-left: 100px;
         padding-right: 100px;
     }
@@ -167,7 +167,7 @@
         margin-right: 30px;
     }
 
-    .home::before {
+    .app-wrapper::before {
         background-position: top -2rem right -2rem;
         background-size: 35rem 35rem;
     }
@@ -186,10 +186,14 @@
 
 @media (min-width: 1024px) {
 
-    .home-section, .summary-section, .features-section, .footer-section {
+    .header-section, .summary-section, .features-section, .footer-section, .home-section {
         padding-left: 60px;
         padding-right: 60px;
         max-width: 1240px;
+    }
+
+    .header-section {
+        padding-bottom: 50px;
     }
 
     .company-description-wrapper {
@@ -214,7 +218,7 @@
         padding-top: 10px;
     }
 
-    .home::before {
+    .app-wrapper::before {
         background-position: top -5rem right -8rem;
         background-size: 35rem 35rem;
     }
@@ -261,7 +265,7 @@
         flex: 1;
     }
 
-    .features-list-header h4 {
+    .features-list-header h3 {
         font-size: 1.1rem;
     }
 
@@ -432,7 +436,7 @@
         font-size: 2.3rem;
     }
 
-    .home::before {
+    .app-wrapper::before {
         background-position: top -8rem right -8rem;
         background-size: 40rem 40rem;
     }
@@ -474,7 +478,7 @@
         padding: 0rem .5rem;
     }
 
-    .home::before {
+    .app-wrapper::before {
         background-position: top -11rem right -8rem;
         background-size: 45rem 45rem;
     }
@@ -492,7 +496,7 @@
 }
 
 @media (min-width: 1536px) {
-    .home-section, .summary-section, .features-section, .footer-section {
+    .header-section, .summary-section, .features-section, .footer-section, .home-section {
         max-width: 1750px;
         padding-left: 10vw;
         padding-right: 10vw;

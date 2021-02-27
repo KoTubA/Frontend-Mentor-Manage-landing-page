@@ -52,35 +52,57 @@ body {
     overflow: hidden;
 }
 
-.home, .features, .slider, .summary, .footer {
+.header, .main, .features, .slider, .summary, .footer {
     @extend %flexbox;
     position: relative;
-}
-
-.home-section, .summary-section, .features-section, .footer-section {
     width: 100%;
 }
 
-.home::before {
+.main {
+    flex-direction: column;
+}
+
+.header-section, .home-section, .summary-section, .features-section, .footer-section {
+    width: 100%;
+}
+
+.app-wrapper::before {
     @extend %pattern;
     background: url('../assets/svg/bg-tablet-pattern.svg') no-repeat;
     background-position: top -6rem right -8rem;
     background-size: 28rem 28rem;
 }
 
-.home-section {
-    @extend %flexbox;
-    flex-direction: column;
-    padding: 20px 30px;
-    position: relative;
-}
-
-.nav-cnt {
+.header-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 0px;
-    width: 100%;
+    position: relative;
+    padding: 50px 30px 30px 30px;
+}
+
+.skip-link {
+    position: absolute;
+    top: -0.5rem;
+    right: 100%;
+    white-space: nowrap;
+    color: #242d52;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    font-weight: 500;
+}
+
+.skip-link:not(:focus) {
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    white-space: nowrap;
+}
+
+.nav {
+    position: relative;
 }
 
 .nav-list {
@@ -132,11 +154,16 @@ body {
     }
 }
 
+.company-logo-link {
+    padding: 0.7rem 0.5rem 0.1rem 0.5rem;
+    margin-bottom: 0.6rem;
+}
+
 .company-logo {
     width: 120px;
 }
 
-.company-logo-link:focus {
+.company-logo-link:focus, .footer-company-logo-link:focus, .skip-link:focus {
     @extend %focus;
 }
 
@@ -171,10 +198,16 @@ body {
     display: none;
 }
 
+.home-section {
+    padding: 0px 30px;
+    position: relative;
+}
+
 .company-description-wrapper {
     @extend %flexbox;
     flex-direction: column;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .company-descritpion-illustration-intro img {
@@ -287,7 +320,7 @@ body {
         border-radius: 2.5rem;
     }
 
-    h4 {
+    h3 {
         padding-left: 1rem;
         margin: 0;
         color: $dark-blue;
