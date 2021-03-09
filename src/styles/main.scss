@@ -318,6 +318,7 @@ body {
 
     h3 {
         padding-left: 1rem;
+        font-size: 1rem;
         margin: 0;
         color: $dark-blue;
     }
@@ -439,7 +440,7 @@ body {
 .summary-section-title {
     @extend %flexbox;
     color: $white-color;
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     text-align: center;
 }
 

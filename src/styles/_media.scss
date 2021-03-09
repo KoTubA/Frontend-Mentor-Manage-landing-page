@@ -313,7 +313,7 @@
     .footer-logo-company {
         grid-column: 1/2;
         grid-row: 1/2;
-        padding: 20px 60px 20px 0px;
+        padding: 20px 0px;
         justify-content: flex-start;
         align-items: flex-start;
 
@@ -329,7 +329,6 @@
     .footer-social-media {
         grid-column: 1/2;
         grid-row: 2/3;
-        padding-right: 60px;
         align-items: flex-end;
     }
 
@@ -496,6 +495,14 @@
         background-position: bottom 0rem left -25rem;
         background-size: 45rem 45rem;
         margin-bottom: -75rem;
+    }
+
+    .footer-logo-company {
+        padding: 20px 60px 20px 0px;
+    }
+
+    .footer-social-media {
+        padding-right: 60px;
     }
 
     .footer-section-form {
