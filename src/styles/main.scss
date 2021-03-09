@@ -37,7 +37,7 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 body {
@@ -99,10 +99,6 @@ body {
     overflow: hidden;
     clip: rect(1px 1px 1px 1px);
     white-space: nowrap;
-}
-
-.nav {
-    position: relative;
 }
 
 .nav-list {

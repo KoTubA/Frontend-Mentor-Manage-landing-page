@@ -36,7 +36,7 @@
 @media (max-width: 374px) {
 
     html {
-        font-size: 15px;
+        font-size: 0.9rem;
     }
 
 }
@@ -44,7 +44,7 @@
 @media (max-width: 359px) {
 
     html {
-        font-size: 14px;
+        font-size: 0.85rem;
     }
 
 }
@@ -387,6 +387,11 @@
         margin: 8px 0px;
     }
 
+    nav {
+        position: relative;
+        margin-left: 50px;
+    }
+
     .nav-cnt {
         padding: 30px 0px 50px 0px;
     }
@@ -449,6 +454,10 @@
 
     .company-description-cnt {
         padding-top: 20px;
+    }
+
+    nav {
+        margin-left: 0px;
     }
 }
 
@@ -528,7 +537,7 @@
     }
 
     html {
-        font-size: 18px;
+        font-size: 1.1rem;
     }
 }
 
