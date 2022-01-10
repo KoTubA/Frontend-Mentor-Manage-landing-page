@@ -8,7 +8,7 @@ The website was created for a larger project called ["Front-end-foundations".](h
 
 ## Live demo
 
-Link to demo: https://kotuba.github.io/Manage-landing-page/
+Link to demo: https://kotuba.github.io/Frontend-Mentor-Manage-landing-page/
 
 ## How to run?
 
