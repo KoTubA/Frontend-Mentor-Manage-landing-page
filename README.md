@@ -14,13 +14,13 @@ Link to demo: https://kotuba.github.io/Manage-landing-page/
 
 **1. Clone this repository:**
 ```
-git clone https://github.com/KoTubA/Manage-landing-page.git
+git clone https://github.com/KoTubA/Frontend-Mentor-Manage-landing-page.git
 ```
 
 or:
 
 ```
-git clone git@github.com:KoTubA/Manage-landing-page.git
+git clone git@github.com:KoTubA/Frontend-Mentor-Manage-landing-page.git
 ```
 
 **2. Install npm packages:**
